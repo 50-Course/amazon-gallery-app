@@ -6,8 +6,20 @@ authors = ["50-Course <erioluwaadeodu@my.uopeople.edu>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+Django = "^4.0.4"
+djangorestframework = "^3.13.1"
+django-cors-headers = "^3.12.0"
+django-filter = "^21.1"
+django-extensions = "^3.1.5"
+colorama = "^0.4.4"
+selenium = "^4.1.5"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+pydocstyle = "^6.1.1"
+bandit = "^1.7.4"
+mypy = "^0.950"
+pycodestyle = "^2.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
